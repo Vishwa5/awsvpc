@@ -1,6 +1,10 @@
 variable "create_vpc" {
   description = "Controls if VPC should be created (it affects almost all resources)"
-  default     = true
+  default     = false
+}
+
+variable "vpc_id" {
+  description = "To use the existing VPC"
 }
 
 variable "name" {

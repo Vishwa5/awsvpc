@@ -5,7 +5,7 @@ variable "create_vpc" {
 
 variable "vpc_id" {
   description = "To use the existing VPC"
-  default = "vpc-0486c785cbfcbb65d"
+  
 }
 
 variable "name" {
